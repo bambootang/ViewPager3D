@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bambootang.sample.MainActivity">
+
+
+    <com.bambootang.viewpager3d.BambooFlowViewPager
+        android:id="@+id/fvp_pagers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:paddingLeft="200dp"
+        android:paddingRight="200dp"
+        app:clipAble="true"
+        app:maxRotationY="30"
+        app:pageRound="0.5"
+        app:pageSpace="8dp"
+        app:reflectAlphaFactor="0.9"
+        app:rotaionYAble="true"
+        app:rotationYFactor="15"
+        app:scaleFactor="0.1"
+        app:translationFactor="0.5" />
+
+</RelativeLayout>

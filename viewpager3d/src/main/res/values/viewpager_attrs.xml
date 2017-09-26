@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BambooFlowViewPager">
+        <attr name="pageSpace" format="dimension" />
+        <attr name="pageRound" format="float" />
+        <attr name="translationFactor" format="float" />
+        <attr name="scaleFactor" format="float" />
+        <attr name="rotationYFactor" format="float" />
+        <attr name="reflectAlphaFactor" format="float" />
+        <attr name="maxRotationY" format="float" />
+        <attr name="rotaionYAble" format="boolean" />
+        <attr name="clipAble" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="BambooReflectView">
+        <attr name="reflect" format="float" />
+        <attr name="reflectSpace" format="dimension" />
+    </declare-styleable>
+
+
+</resources>
