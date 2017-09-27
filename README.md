@@ -16,8 +16,8 @@
   
   
   
-## How To Use BambooFlowViewPager
-### 1、Use BambooFlowViewPager In XML
+## 如何使用 BambooFlowViewPager
+### 1、在XML中使用BambooFlowViewPager
 
     <com.bambootang.viewpager3d.BambooFlowViewPager
         android:id="@+id/fvp_pagers"
@@ -58,7 +58,7 @@
 #
   
   
-### 2、Use FlowTransformer In Java Code
+### 2、在Java代码中使用BambooFlowViewPager
 
         ViewPager vp_pagers = (ViewPager) findViewById(R.id.vp_pagers);
         vp_pagers.setAdapter(pagerAdapter);
@@ -70,9 +70,9 @@
         
         
         
-## How To Use BambooReflectView 
+## 如何使用 BambooReflectView 
   
-### 1、Use BambooReflectView In XML
+### 1、在XML中使用BambooReflectView
 
     <com.bambootang.viewpager3d.BambooReflectView
         android:id="@+id/rv_reflect"
@@ -88,7 +88,7 @@
 
 #
   
-### 2、Use BambooReflectView In Java Code
+### 2、在Java代码中使用BambooReflectView
 
         ImageView imageView = new ImageView(container.getContext());
         imageView.setImageResource(imgIds[position]);
@@ -100,12 +100,12 @@
   
   
   
-## How To Regulate CenterPage's With
+## 怎么控制中间页的with
 
     viewPager.setPaddingLeft(paddingLeft);
     viewPager.setPaddingRight(paddingRight);
     //then centerpage's with = viewPager.getWidth() - paddingLeft - paddingRight
-#### Or
+#### 或者
 
     android:width="800dp"
     android:paddingLeft="220dp"
@@ -119,4 +119,4 @@
 
 
 
-# The Last, Thanks For Your Star * 😄
+# 最后, Thanks For Your Star * 😄
