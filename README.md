@@ -22,6 +22,10 @@ RotationTransform      控制page的内旋角度
 同时支持重叠区域Clip裁切、page之间的space、中间页切换的切换点控制等。
 
 利用上面的功能以及内置的倒影组件可以做出非常丰富的特效动画效果。
+  
+## 如何使用ViewPager3D组件 BambooFlowViewPager
+
+BambooFlowViewPager自定义了xml属性来设置各个变换器变换因子，你可以选择直接使用xml的自定义属性控制变换器的变换因子，也可以选择使用java代码重写各个变换器的变换算法来实现各种不一样的特效。更多具体的使用方式请查看sample的源码
 
 
 ## dependencies
@@ -30,10 +34,6 @@ RotationTransform      控制page的内旋角度
 
   
   
-  
-## 如何使用ViewPager3D组件 BambooFlowViewPager
-
-BambooFlowViewPager自定义了xml属性来设置各个变换器变换因子，你可以选择直接使用xml的自定义属性控制变换器的变换因子，也可以选择使用java代码重写各个变换器的变换算法来实现各种不一样的特效。更多具体的使用方式请查看sample的源码
 
 ### 1、在XML中使用BambooFlowViewPager
 
