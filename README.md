@@ -144,6 +144,3 @@ BambooFlowViewPager自定义了xml属性来设置各个变换器变换因子，�
 
 更多使用方式，请查阅sample module.
 
-
-
-# 最后, Thanks For Your Star * 😄
