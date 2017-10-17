@@ -142,5 +142,3 @@ BambooFlowViewPager自定义了xml属性来设置各个变换器变换因子，�
 
 灵活使用这些可变项，可以做出非常丰富的动画效果。
 
-更多使用方式，请查阅sample module.
-
