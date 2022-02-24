@@ -127,17 +127,17 @@ BambooFlowViewPager自定义了xml属性来设置各个变换器变换因子，�
   
   
   
-## 怎么控制ViewPager3D中间页的with
+## 怎么控制ViewPager3D中间页的width
 
     viewPager.setPaddingLeft(paddingLeft);
     viewPager.setPaddingRight(paddingRight);
-    //then centerpage's with = viewPager.getWidth() - paddingLeft - paddingRight
+    //then centerpage's width = viewPager.getWidth() - paddingLeft - paddingRight
 #### 或者
 
     android:width="800dp"
     android:paddingLeft="220dp"
     android:paddingRight="220dp"
-    //then centerpage's with = 360dp
+    //then centerpage's width = 360dp
     
 
 灵活使用这些可变项，可以做出非常丰富的动画效果。
